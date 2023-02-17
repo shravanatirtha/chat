@@ -6,6 +6,7 @@ module.exports = function (defaults) {
   const app = new EmberApp(defaults, {
     // Add options here
   });
+  // app.import('node_modules/sockjs-client/dist/sockjs.js');
 
   // Use `app.import` to add additional libraries to the generated
   // output files.
